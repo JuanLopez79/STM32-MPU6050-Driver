@@ -1,0 +1,410 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es 4677-BCFE
+C:.
+|   estructura.txt
+|   
+\---mpu6050
+    |   .cproject
+    |   .gitignore
+    |   .mxproject
+    |   .project
+    |   mpu6050 Debug.launch
+    |   mpu6050.ioc
+    |   STM32G474RETX_FLASH.ld
+    |   STM32G474RETX_RAM.ld
+    |   
+    +---.settings
+    |       language.settings.xml
+    |       org.eclipse.cdt.core.prefs
+    |       org.eclipse.core.resources.prefs
+    |       stm32cubeide.project.prefs
+    |       
+    +---Application
+    |   +---Inc
+    |   |       app.h
+    |   |       machine.h
+    |   |       sensor_data.h
+    |   |       system_state.h
+    |   |       
+    |   \---Src
+    |           app.c
+    |           machine.c
+    |           
+    +---Config
+    |       system_context.h
+    |       
+    +---Core
+    |   +---Inc
+    |   |       gpio.h
+    |   |       i2c.h
+    |   |       main.h
+    |   |       mpu6050.h
+    |   |       mpu6050_registers.h
+    |   |       stm32g4xx_hal_conf.h
+    |   |       stm32g4xx_it.h
+    |   |       usart.h
+    |   |       
+    |   +---Src
+    |   |       gpio.c
+    |   |       i2c.c
+    |   |       main.c
+    |   |       mpu6050.c
+    |   |       stm32g4xx_hal_msp.c
+    |   |       stm32g4xx_it.c
+    |   |       syscalls.c
+    |   |       sysmem.c
+    |   |       system_stm32g4xx.c
+    |   |       usart.c
+    |   |       
+    |   \---Startup
+    |           startup_stm32g474retx.s
+    |           
+    +---Debug
+    |   |   makefile
+    |   |   mpu6050.elf
+    |   |   mpu6050.list
+    |   |   mpu6050.map
+    |   |   objects.list
+    |   |   objects.mk
+    |   |   sources.mk
+    |   |   
+    |   +---Application
+    |   |   \---Src
+    |   |           app.cyclo
+    |   |           app.d
+    |   |           app.o
+    |   |           app.su
+    |   |           machine.cyclo
+    |   |           machine.d
+    |   |           machine.o
+    |   |           machine.su
+    |   |           subdir.mk
+    |   |           
+    |   +---Core
+    |   |   +---Src
+    |   |   |       gpio.cyclo
+    |   |   |       gpio.d
+    |   |   |       gpio.o
+    |   |   |       gpio.su
+    |   |   |       i2c.cyclo
+    |   |   |       i2c.d
+    |   |   |       i2c.o
+    |   |   |       i2c.su
+    |   |   |       main.cyclo
+    |   |   |       main.d
+    |   |   |       main.o
+    |   |   |       main.su
+    |   |   |       mpu6050.cyclo
+    |   |   |       mpu6050.d
+    |   |   |       mpu6050.o
+    |   |   |       mpu6050.su
+    |   |   |       stm32g4xx_hal_msp.cyclo
+    |   |   |       stm32g4xx_hal_msp.d
+    |   |   |       stm32g4xx_hal_msp.o
+    |   |   |       stm32g4xx_hal_msp.su
+    |   |   |       stm32g4xx_it.cyclo
+    |   |   |       stm32g4xx_it.d
+    |   |   |       stm32g4xx_it.o
+    |   |   |       stm32g4xx_it.su
+    |   |   |       subdir.mk
+    |   |   |       syscalls.cyclo
+    |   |   |       syscalls.d
+    |   |   |       syscalls.o
+    |   |   |       syscalls.su
+    |   |   |       sysmem.cyclo
+    |   |   |       sysmem.d
+    |   |   |       sysmem.o
+    |   |   |       sysmem.su
+    |   |   |       system_stm32g4xx.cyclo
+    |   |   |       system_stm32g4xx.d
+    |   |   |       system_stm32g4xx.o
+    |   |   |       system_stm32g4xx.su
+    |   |   |       usart.cyclo
+    |   |   |       usart.d
+    |   |   |       usart.o
+    |   |   |       usart.su
+    |   |   |       
+    |   |   \---Startup
+    |   |           startup_stm32g474retx.d
+    |   |           startup_stm32g474retx.o
+    |   |           subdir.mk
+    |   |           
+    |   +---Drivers
+    |   |   +---MPU6050
+    |   |   |   \---Src
+    |   |   |           mpu6050.cyclo
+    |   |   |           mpu6050.d
+    |   |   |           mpu6050.o
+    |   |   |           mpu6050.su
+    |   |   |           subdir.mk
+    |   |   |           
+    |   |   +---SSD1306
+    |   |   |   \---Src
+    |   |   |           ssd1306.cyclo
+    |   |   |           ssd1306.d
+    |   |   |           ssd1306.o
+    |   |   |           ssd1306.su
+    |   |   |           subdir.mk
+    |   |   |           
+    |   |   \---STM32G4xx_HAL_Driver
+    |   |       \---Src
+    |   |               stm32g4xx_hal.cyclo
+    |   |               stm32g4xx_hal.d
+    |   |               stm32g4xx_hal.o
+    |   |               stm32g4xx_hal.su
+    |   |               stm32g4xx_hal_cortex.cyclo
+    |   |               stm32g4xx_hal_cortex.d
+    |   |               stm32g4xx_hal_cortex.o
+    |   |               stm32g4xx_hal_cortex.su
+    |   |               stm32g4xx_hal_dma.cyclo
+    |   |               stm32g4xx_hal_dma.d
+    |   |               stm32g4xx_hal_dma.o
+    |   |               stm32g4xx_hal_dma.su
+    |   |               stm32g4xx_hal_dma_ex.cyclo
+    |   |               stm32g4xx_hal_dma_ex.d
+    |   |               stm32g4xx_hal_dma_ex.o
+    |   |               stm32g4xx_hal_dma_ex.su
+    |   |               stm32g4xx_hal_exti.cyclo
+    |   |               stm32g4xx_hal_exti.d
+    |   |               stm32g4xx_hal_exti.o
+    |   |               stm32g4xx_hal_exti.su
+    |   |               stm32g4xx_hal_flash.cyclo
+    |   |               stm32g4xx_hal_flash.d
+    |   |               stm32g4xx_hal_flash.o
+    |   |               stm32g4xx_hal_flash.su
+    |   |               stm32g4xx_hal_flash_ex.cyclo
+    |   |               stm32g4xx_hal_flash_ex.d
+    |   |               stm32g4xx_hal_flash_ex.o
+    |   |               stm32g4xx_hal_flash_ex.su
+    |   |               stm32g4xx_hal_flash_ramfunc.cyclo
+    |   |               stm32g4xx_hal_flash_ramfunc.d
+    |   |               stm32g4xx_hal_flash_ramfunc.o
+    |   |               stm32g4xx_hal_flash_ramfunc.su
+    |   |               stm32g4xx_hal_gpio.cyclo
+    |   |               stm32g4xx_hal_gpio.d
+    |   |               stm32g4xx_hal_gpio.o
+    |   |               stm32g4xx_hal_gpio.su
+    |   |               stm32g4xx_hal_i2c.cyclo
+    |   |               stm32g4xx_hal_i2c.d
+    |   |               stm32g4xx_hal_i2c.o
+    |   |               stm32g4xx_hal_i2c.su
+    |   |               stm32g4xx_hal_i2c_ex.cyclo
+    |   |               stm32g4xx_hal_i2c_ex.d
+    |   |               stm32g4xx_hal_i2c_ex.o
+    |   |               stm32g4xx_hal_i2c_ex.su
+    |   |               stm32g4xx_hal_pwr.cyclo
+    |   |               stm32g4xx_hal_pwr.d
+    |   |               stm32g4xx_hal_pwr.o
+    |   |               stm32g4xx_hal_pwr.su
+    |   |               stm32g4xx_hal_pwr_ex.cyclo
+    |   |               stm32g4xx_hal_pwr_ex.d
+    |   |               stm32g4xx_hal_pwr_ex.o
+    |   |               stm32g4xx_hal_pwr_ex.su
+    |   |               stm32g4xx_hal_rcc.cyclo
+    |   |               stm32g4xx_hal_rcc.d
+    |   |               stm32g4xx_hal_rcc.o
+    |   |               stm32g4xx_hal_rcc.su
+    |   |               stm32g4xx_hal_rcc_ex.cyclo
+    |   |               stm32g4xx_hal_rcc_ex.d
+    |   |               stm32g4xx_hal_rcc_ex.o
+    |   |               stm32g4xx_hal_rcc_ex.su
+    |   |               stm32g4xx_hal_uart.cyclo
+    |   |               stm32g4xx_hal_uart.d
+    |   |               stm32g4xx_hal_uart.o
+    |   |               stm32g4xx_hal_uart.su
+    |   |               stm32g4xx_hal_uart_ex.cyclo
+    |   |               stm32g4xx_hal_uart_ex.d
+    |   |               stm32g4xx_hal_uart_ex.o
+    |   |               stm32g4xx_hal_uart_ex.su
+    |   |               subdir.mk
+    |   |               
+    |   +---Modules
+    |   |   +---Acquisition
+    |   |   |   \---Src
+    |   |   |           acquisition.cyclo
+    |   |   |           acquisition.d
+    |   |   |           acquisition.o
+    |   |   |           acquisition.su
+    |   |   |           subdir.mk
+    |   |   |           
+    |   |   +---Communication
+    |   |   |   \---Src
+    |   |   |           communication.cyclo
+    |   |   |           communication.d
+    |   |   |           communication.o
+    |   |   |           communication.su
+    |   |   |           subdir.mk
+    |   |   |           
+    |   |   \---Processing
+    |   |       \---Src
+    |   |               processing.cyclo
+    |   |               processing.d
+    |   |               processing.o
+    |   |               processing.su
+    |   |               subdir.mk
+    |   |               
+    |   \---Platform
+    |       \---Src
+    |               platform.cyclo
+    |               platform.d
+    |               platform.o
+    |               platform.su
+    |               platform_i2c.cyclo
+    |               platform_i2c.d
+    |               platform_i2c.o
+    |               platform_i2c.su
+    |               subdir.mk
+    |               
+    +---Drivers
+    |   +---CMSIS
+    |   |   |   LICENSE.txt
+    |   |   |   
+    |   |   +---Device
+    |   |   |   \---ST
+    |   |   |       \---STM32G4xx
+    |   |   |           |   LICENSE.txt
+    |   |   |           |   
+    |   |   |           \---Include
+    |   |   |                   stm32g474xx.h
+    |   |   |                   stm32g4xx.h
+    |   |   |                   system_stm32g4xx.h
+    |   |   |                   
+    |   |   \---Include
+    |   |           cmsis_armcc.h
+    |   |           cmsis_armclang.h
+    |   |           cmsis_armclang_ltm.h
+    |   |           cmsis_compiler.h
+    |   |           cmsis_gcc.h
+    |   |           cmsis_iccarm.h
+    |   |           cmsis_version.h
+    |   |           core_armv81mml.h
+    |   |           core_armv8mbl.h
+    |   |           core_armv8mml.h
+    |   |           core_cm0.h
+    |   |           core_cm0plus.h
+    |   |           core_cm1.h
+    |   |           core_cm23.h
+    |   |           core_cm3.h
+    |   |           core_cm33.h
+    |   |           core_cm35p.h
+    |   |           core_cm4.h
+    |   |           core_cm7.h
+    |   |           core_sc000.h
+    |   |           core_sc300.h
+    |   |           mpu_armv7.h
+    |   |           mpu_armv8.h
+    |   |           tz_context.h
+    |   |           
+    |   +---MPU6050
+    |   |   +---Inc
+    |   |   |       mpu6050.h
+    |   |   |       
+    |   |   \---Src
+    |   |           mpu6050.c
+    |   |           
+    |   +---SSD1306
+    |   |   +---Inc
+    |   |   |       ssd1306.h
+    |   |   |       
+    |   |   \---Src
+    |   |           ssd1306.c
+    |   |           
+    |   \---STM32G4xx_HAL_Driver
+    |       |   LICENSE.txt
+    |       |   
+    |       +---Inc
+    |       |   |   stm32g4xx_hal.h
+    |       |   |   stm32g4xx_hal_cortex.h
+    |       |   |   stm32g4xx_hal_def.h
+    |       |   |   stm32g4xx_hal_dma.h
+    |       |   |   stm32g4xx_hal_dma_ex.h
+    |       |   |   stm32g4xx_hal_exti.h
+    |       |   |   stm32g4xx_hal_flash.h
+    |       |   |   stm32g4xx_hal_flash_ex.h
+    |       |   |   stm32g4xx_hal_flash_ramfunc.h
+    |       |   |   stm32g4xx_hal_gpio.h
+    |       |   |   stm32g4xx_hal_gpio_ex.h
+    |       |   |   stm32g4xx_hal_i2c.h
+    |       |   |   stm32g4xx_hal_i2c_ex.h
+    |       |   |   stm32g4xx_hal_pwr.h
+    |       |   |   stm32g4xx_hal_pwr_ex.h
+    |       |   |   stm32g4xx_hal_rcc.h
+    |       |   |   stm32g4xx_hal_rcc_ex.h
+    |       |   |   stm32g4xx_hal_uart.h
+    |       |   |   stm32g4xx_hal_uart_ex.h
+    |       |   |   stm32g4xx_ll_bus.h
+    |       |   |   stm32g4xx_ll_cortex.h
+    |       |   |   stm32g4xx_ll_crs.h
+    |       |   |   stm32g4xx_ll_dma.h
+    |       |   |   stm32g4xx_ll_dmamux.h
+    |       |   |   stm32g4xx_ll_exti.h
+    |       |   |   stm32g4xx_ll_gpio.h
+    |       |   |   stm32g4xx_ll_i2c.h
+    |       |   |   stm32g4xx_ll_lpuart.h
+    |       |   |   stm32g4xx_ll_pwr.h
+    |       |   |   stm32g4xx_ll_rcc.h
+    |       |   |   stm32g4xx_ll_system.h
+    |       |   |   stm32g4xx_ll_usart.h
+    |       |   |   stm32g4xx_ll_utils.h
+    |       |   |   
+    |       |   \---Legacy
+    |       |           stm32_hal_legacy.h
+    |       |           
+    |       \---Src
+    |               stm32g4xx_hal.c
+    |               stm32g4xx_hal_cortex.c
+    |               stm32g4xx_hal_dma.c
+    |               stm32g4xx_hal_dma_ex.c
+    |               stm32g4xx_hal_exti.c
+    |               stm32g4xx_hal_flash.c
+    |               stm32g4xx_hal_flash_ex.c
+    |               stm32g4xx_hal_flash_ramfunc.c
+    |               stm32g4xx_hal_gpio.c
+    |               stm32g4xx_hal_i2c.c
+    |               stm32g4xx_hal_i2c_ex.c
+    |               stm32g4xx_hal_pwr.c
+    |               stm32g4xx_hal_pwr_ex.c
+    |               stm32g4xx_hal_rcc.c
+    |               stm32g4xx_hal_rcc_ex.c
+    |               stm32g4xx_hal_uart.c
+    |               stm32g4xx_hal_uart_ex.c
+    |               
+    +---Modules
+    |   +---Acquisition
+    |   |   +---Inc
+    |   |   |       acquisition.h
+    |   |   |       
+    |   |   \---Src
+    |   |           acquisition.c
+    |   |           
+    |   +---Communication
+    |   |   +---Inc
+    |   |   |       communication.h
+    |   |   |       
+    |   |   \---Src
+    |   |           communication.c
+    |   |           
+    |   +---Display
+    |   |   +---Inc
+    |   |   |       display.h
+    |   |   |       
+    |   |   \---Src
+    |   |           display.c
+    |   |           
+    |   +---Processing
+    |   |   +---Inc
+    |   |   |       processing.h
+    |   |   |       
+    |   |   \---Src
+    |   |           processing.c
+    |   |           
+    |   \---UI
+    |       +---Inc
+    |       |       ui.h
+    |       |       
+    |       \---Src
+    |               ui.c
+    |               
+    \---Utilities
+            utilities.txt
+            
